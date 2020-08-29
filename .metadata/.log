@@ -7270,3 +7270,315 @@ Contains: Missing com.google.guava:listenablefuture:jar:javadoc:9999.0-empty-to-
 !MESSAGE Could not resolve artifact com.google.guava:listenablefuture:jar:javadoc:9999.0-empty-to-avoid-conflict-with-guava
 !SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-08-29 18:16:02.201
 !MESSAGE Missing com.google.guava:listenablefuture:jar:javadoc:9999.0-empty-to-avoid-conflict-with-guava
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:20:32.132
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:20:32.132
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@34ad750f[org.springframework.tooling.boot.ls:1.20.0.202007271426(id=628)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:20:32.142
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:20:32.243
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:20:36.688
+!MESSAGE Boot LS startup time from start to initialized: 4515ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:20:36.909
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MbRFxMaFisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:20:36.911
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:20:36.912
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:20:36.914
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:20:36.917
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:20:36.918
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:20:36.919
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:20:36.919
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MbRFxMaF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:20:36.925
+!MESSAGE classpath=89 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:20:36.929
+!MESSAGE buffering callback sts4.classpath.MbRFxMaF sismtema-legado-empresa-1 false 89
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:20:36.930
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:20:36.934
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:20:36.937
+!MESSAGE buffering callback sts4.classpath.MbRFxMaF sistema-interface false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:20:36.938
+!MESSAGE executing callback sts4.classpath.MbRFxMaF 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:20:37.336
+!MESSAGE executing callback sts4.classpath.MbRFxMaF SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-29 18:22:18.425
+!MESSAGE The POM for org.apache.camel:camel-js:jar:2.25.2 is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:22:19.659
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:22:19.662
+!MESSAGE classpath=88 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:22:19.664
+!MESSAGE buffering callback sts4.classpath.MbRFxMaF sistema-interface false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:22:19.665
+!MESSAGE executing callback sts4.classpath.MbRFxMaF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:22:19.861
+!MESSAGE executing callback sts4.classpath.MbRFxMaF SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2020-08-29 18:22:29.327
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1950)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-08-29 18:22:37.161
+!MESSAGE Could not download sources for org.apache.camel:camel-js:2.25.2
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.camel:camel-js:jar:sources:2.25.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.apache.camel:camel-js:jar:sources:2.25.2
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-08-29 18:22:37.162
+!MESSAGE Could not resolve artifact org.apache.camel:camel-js:jar:sources:2.25.2
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-08-29 18:22:37.162
+!MESSAGE Missing org.apache.camel:camel-js:jar:sources:2.25.2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:22:41.307
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:22:41.312
+!MESSAGE classpath=89 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:22:41.316
+!MESSAGE buffering callback sts4.classpath.MbRFxMaF sistema-interface false 89
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:22:41.317
+!MESSAGE executing callback sts4.classpath.MbRFxMaF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:22:41.490
+!MESSAGE executing callback sts4.classpath.MbRFxMaF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:22:49.796
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:22:49.803
+!MESSAGE classpath=89 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:22:49.805
+!MESSAGE buffering callback sts4.classpath.MbRFxMaF sistema-interface false 89
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:22:49.806
+!MESSAGE executing callback sts4.classpath.MbRFxMaF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:22:49.824
+!MESSAGE executing callback sts4.classpath.MbRFxMaF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:30:05.642
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:30:05.646
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:30:05.648
+!MESSAGE buffering callback sts4.classpath.MbRFxMaF sistema-interface false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:30:05.648
+!MESSAGE executing callback sts4.classpath.MbRFxMaF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:30:05.852
+!MESSAGE executing callback sts4.classpath.MbRFxMaF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:30:30.426
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:30:30.429
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:30:30.431
+!MESSAGE buffering callback sts4.classpath.MbRFxMaF sistema-interface false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:30:30.431
+!MESSAGE executing callback sts4.classpath.MbRFxMaF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:30:30.456
+!MESSAGE executing callback sts4.classpath.MbRFxMaF SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-29 18:34:49.917
+!MESSAGE The POM for org.apache.camel:camel-spring-boot-starter:jar:3.4.3 is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:35:57.582
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:35:57.588
+!MESSAGE classpath=106 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:35:57.590
+!MESSAGE buffering callback sts4.classpath.MbRFxMaF sistema-interface false 105
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:35:57.590
+!MESSAGE executing callback sts4.classpath.MbRFxMaF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:35:57.853
+!MESSAGE executing callback sts4.classpath.MbRFxMaF SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-29 18:35:58.954
+!MESSAGE The POM for org.apache.camel:camel-spring-boot-starter:jar:3.4.3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-08-29 18:36:01.733
+!MESSAGE Could not download sources for org.apache.camel:camel-spring-boot-starter:3.4.3
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.camel:camel-spring-boot-starter:jar:sources:3.4.3
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.apache.camel:camel-spring-boot-starter:jar:sources:3.4.3
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-08-29 18:36:01.733
+!MESSAGE Could not resolve artifact org.apache.camel:camel-spring-boot-starter:jar:sources:3.4.3
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-08-29 18:36:01.733
+!MESSAGE Missing org.apache.camel:camel-spring-boot-starter:jar:sources:3.4.3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:38:34.326
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:38:34.330
+!MESSAGE classpath=106 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:38:34.333
+!MESSAGE buffering callback sts4.classpath.MbRFxMaF sistema-interface false 105
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:38:34.333
+!MESSAGE executing callback sts4.classpath.MbRFxMaF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:38:34.347
+!MESSAGE executing callback sts4.classpath.MbRFxMaF SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-08-29 18:38:35.760
+!MESSAGE Could not download javadoc for org.apache.camel:camel-spring-boot-starter:3.4.3
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.camel:camel-spring-boot-starter:jar:javadoc:3.4.3
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.apache.camel:camel-spring-boot-starter:jar:javadoc:3.4.3
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-08-29 18:38:35.760
+!MESSAGE Could not resolve artifact org.apache.camel:camel-spring-boot-starter:jar:javadoc:3.4.3
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-08-29 18:38:35.760
+!MESSAGE Missing org.apache.camel:camel-spring-boot-starter:jar:javadoc:3.4.3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:40:05.758
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:40:05.762
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:40:05.764
+!MESSAGE buffering callback sts4.classpath.MbRFxMaF sistema-interface false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:40:05.765
+!MESSAGE executing callback sts4.classpath.MbRFxMaF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:40:05.803
+!MESSAGE executing callback sts4.classpath.MbRFxMaF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:46:39.992
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:46:39.995
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:46:39.999
+!MESSAGE buffering callback sts4.classpath.MbRFxMaF sistema-interface false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:46:40.000
+!MESSAGE executing callback sts4.classpath.MbRFxMaF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:46:40.064
+!MESSAGE executing callback sts4.classpath.MbRFxMaF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:48:23.056
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:48:23.059
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:48:23.061
+!MESSAGE buffering callback sts4.classpath.MbRFxMaF sistema-interface false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:48:23.062
+!MESSAGE executing callback sts4.classpath.MbRFxMaF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-29 18:48:23.105
+!MESSAGE executing callback sts4.classpath.MbRFxMaF SUCCESS [done]
