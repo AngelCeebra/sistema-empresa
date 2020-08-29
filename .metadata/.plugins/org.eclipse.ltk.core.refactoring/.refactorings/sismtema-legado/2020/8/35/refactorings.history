@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;sismtema-legado/src/main/resources/templates/index.html&apos; to &apos;clientes.html&apos;" description="Rename resource &apos;index.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/templates/index.html" name="clientes.html" stamp="1598713314845" updateReferences="true"/>
+</session>
