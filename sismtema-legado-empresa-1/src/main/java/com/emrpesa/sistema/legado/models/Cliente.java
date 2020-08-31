@@ -12,8 +12,11 @@ import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
 @Entity
+@XmlRootElement(name = "cliente")
 @Table(name = "clientes")
 public class Cliente implements Serializable {
 
@@ -21,6 +24,7 @@ public class Cliente implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@XmlElement
 	private Long id;
 
 	@Column(name = "fecha_venta")
@@ -28,6 +32,7 @@ public class Cliente implements Serializable {
 	private Date fechaVenta;
 
 	private Double monto;
+	
 	private int sucursal;
 
 	@Column(name = "id_cliente")

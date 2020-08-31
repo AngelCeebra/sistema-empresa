@@ -49,9 +49,9 @@ public class ClienteServiceImpl implements IClienteService{
 //		logger.info("XML A ENVIAR " + xmlEnviar);
 //		Boolean result = sendJMS(DataConstant.sendQueue, xmlEnviar);
 //	}
-//	
-//	public Boolean sendJMS(final String destination, final String text) {
-//		
-//		return true;
-//	}
+	
+	public Boolean sendJMS(final String destination, final String text) {
+		
+		return true;
+	}
 }
