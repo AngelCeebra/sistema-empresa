@@ -10,6 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.emrpesa.sistema.legado.models.Cliente;
 import com.emrpesa.sistema.legado.models.dao.IClienteDao;
+import com.emrpesa.sistema.legado.utils.XmlJmsUtils;
 
 
 @Service
@@ -44,11 +45,11 @@ public class ClienteServiceImpl implements IClienteService{
 		clienteDao.deleteById(id);
 	}
 	
-//	public void sendMessage(Long id) {
-//		String xmlEnviar = XmlJmsUtils.getXmlToSendJms(id);
-//		logger.info("XML A ENVIAR " + xmlEnviar);
-//		Boolean result = sendJMS(DataConstant.sendQueue, xmlEnviar);
-//	}
+	public String sendMessage(Long id) {
+		String xmlEnviar = XmlJmsUtils.getXmlToSendJms(id);
+		logger.info("XML A ENVIAR " + xmlEnviar);
+		return xmlEnviar;
+	}
 	
 	public Boolean sendJMS(final String destination, final String text) {
 		

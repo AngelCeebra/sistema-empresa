@@ -14,5 +14,5 @@ public interface IClienteService {
 	
 	public void delete(Long id);
 	
-//	public void sendMessage(Long id);
+	public String sendMessage(Long id);
 }
