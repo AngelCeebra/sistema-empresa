@@ -1,17 +1,13 @@
 package com.emrpesa.sistema.legado.models;
 
 import java.io.Serializable;
-import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.PrePersist;
 import javax.persistence.Table;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
@@ -28,8 +24,7 @@ public class Cliente implements Serializable {
 	private Long id;
 
 	@Column(name = "fecha_venta")
-	@Temporal(TemporalType.TIMESTAMP)
-	private Date fechaVenta;
+	private String fechaVenta;
 
 	private Double monto;
 	
@@ -39,6 +34,8 @@ public class Cliente implements Serializable {
 	private String idCliente;
 
 	private String canal;
+	
+	private String tipoDeProceso;
 
 	public Cliente() {
 
@@ -51,7 +48,7 @@ public class Cliente implements Serializable {
 		this.canal = canal;
 	}
 
-	public Cliente(Long id, Date fechaVenta, Double monto, int sucursal, String idCliente, String canal) {
+	public Cliente(Long id, String fechaVenta, Double monto, int sucursal, String idCliente, String canal) {
 		super();
 		this.id = id;
 		this.fechaVenta = fechaVenta;
@@ -61,16 +58,11 @@ public class Cliente implements Serializable {
 		this.canal = canal;
 	}
 
-	@PrePersist()
-	public void prePersist() {
-		this.fechaVenta = new Date();
-	}
-
-	public Date getFechaVenta() {
+	public String getFechaVenta() {
 		return fechaVenta;
 	}
 
-	public void setFechaVenta(Date fechaVenta) {
+	public void setFechaVenta(String fechaVenta) {
 		this.fechaVenta = fechaVenta;
 	}
 
@@ -105,4 +97,13 @@ public class Cliente implements Serializable {
 	public void setCanal(String canal) {
 		this.canal = canal;
 	}
+
+	public String getTipoDeProceso() {
+		return tipoDeProceso;
+	}
+
+	public void setTipoDeProceso(String tipoDeProceso) {
+		this.tipoDeProceso = tipoDeProceso;
+	}
+	
 }

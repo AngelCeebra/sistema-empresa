@@ -49,6 +49,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/angel/Angel/sistemaEmpresaWorkspace/sistema-secundario"/>
 			<item value="/Users/angel/Angel/sistemaEmpresaWorkspace/sismtema-legado-empresa-1"/>
 			<item value="/Users/angel/Angel/sistemaEmpresaWorkspace/microservicios-cursos"/>
 		</list>

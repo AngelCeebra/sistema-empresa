@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<cliente>
-    <id>1</id>
-    <fechaVenta>30-08-20</fechaVenta>
-    <monto>30.5</monto>
-    <sucursal>432</sucursal>
-    <idCliente>AAA456</idCliente>
-    <canal>20</canal>
-</cliente>

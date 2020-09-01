@@ -1,0 +1,27 @@
+Agregar cliente
+localhost:8081/empresa/cliente-nuevo
+	Ejemplo:
+	{
+	    "fechaVenta": "2020-05-10",
+	    "monto": 2345.75,
+	    "sucursal": 32,
+	    "idCliente": "OIUYT54",
+	    "canal": "450",
+	    "tipoDeProceso": "guardar"
+	}
+
+
+Editar cliente
+localhost:8081/empresa/actualizar-cliente/5
+{
+    "fechaVenta": "2020-05-10",
+    "monto": 5555.00,
+    "sucursal": 32,
+    "idCliente": "AAAAA",
+    "canal": "450",
+    "tipoDeProceso": "guardar"
+}
+
+Eliminar cliente
+localhost:8081/empresa/eliminar-cliente/3
+
